@@ -11,6 +11,7 @@
 }
 /* Header Section Start */
 header{
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,4 +76,135 @@ section{
   display: flex;
   justify-content: space-between;
   box-shadow: 10px 25px 35px rgba(223, 230, 233,1.0);
+}
+/* Logo Section End */
+
+/* Product Section Start */
+.product{
+  padding-top: 120px;
+}
+.product h2{
+  font-size: 2em;
+  text-align: center;
+  color: #222f3e;
+}
+.all-product{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 30px;
+}
+.box h3{
+  color: #222f3e;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+.box h4{
+  color: #222f3e;
+  font-size: 1.3em;
+  margin-top: 10px;
+}
+.box p{
+  font-size: 13px;
+  color: #576574;
+  margin-top: 10px;
+}
+/* Product section End */
+
+/* Featured Section Start */
+.featured{
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px
+}
+.featured-text h1{
+  font-size: 2em;
+  color: #222f3e;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.featured-text p{
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.featured-text button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #e84393;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.footer{
+  height: 300px;
+  background-color: #130f40;
+  color: #fff;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-text h2{
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.footer-text p{
+  color: #576574;
+  margin-bottom: 20px;
+}
+.footer-text h5{
+  color: #576574;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.footer-text i{
+  font-size: 25px;
+  margin-right: 15px;
+  background-color: #576574;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+/* Media Query */
+@media screen and (max-width:576px) {
+  header{
+    padding: 20px;
+  }
+  .navbar{
+    display: none;
+  }
+  .section{
+    padding: 10px 30px;
+  }
+  .home{
+    flex-direction: column;
+  }
+  .home-text{
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .logo2{
+    flex-wrap: wrap;
+  }
+  .logo2 img{
+    padding: 10px;
+  }
+  .box img{
+    max-width: 100%;
+    width: 500px;
+  }
+  .featured{
+    flex-direction: column;
+  }
+  .featured-img img{
+    max-width: 100%;
+    width: 500px;
+  }
 }
