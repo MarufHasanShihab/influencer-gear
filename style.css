@@ -34,3 +34,45 @@ header{
 .navbar ul li a i{
   font-size: 25px;
 }
+/* Header Section End */
+
+/* Home Sectio Start */
+section{
+  padding: 20px 10%;
+}
+.home{
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-text{
+  width: 500px;
+}
+.home-text h1{
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #222f3e;
+}
+.home-text p{
+  color: #576574;
+  font-size: 18px;
+}
+.btn{
+  margin-top: 25px;
+  padding: 10px 25px;
+  background-color: #e84393;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* Home Section End */
+
+/* Logo Section Start */
+.logo2{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 25px 35px rgba(223, 230, 233,1.0);
+}
